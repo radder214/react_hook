@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 
+// 함수형 컴포넌트
 const App = () => {
   const [item, setItem] = useState(1);
   const incrementItem = () => setItem(current => current + 1);
